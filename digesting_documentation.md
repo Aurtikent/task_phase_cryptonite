@@ -17,4 +17,5 @@
 	- Followed instructions to read the command. 
 4) pwn.college{EU-o3a_-O5D578zC4IcoBwV6Zvh.dVTM4QDL2gTN0czW}
 	- searched the documentation using " / "
-	![screenshot of the ardument searching the documentation](images/man_linuxlumanarium.png)
+	
+![screenshot of the ardument searching the documentation](images/man_linuxlumanarium.png)
