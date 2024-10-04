@@ -14,4 +14,7 @@
 	>man challenge
 	>/challenge/challenge --kkuslk 414
 	- the man page of challenge gave us info on how to "use" the command, 
-	-Followed instructions to read the command. 
+	- Followed instructions to read the command. 
+4) pwn.college{EU-o3a_-O5D578zC4IcoBwV6Zvh.dVTM4QDL2gTN0czW}
+	- searched the documentation using " / "
+	![screenshot of the ardument searching the documentation](images/man_linuxlumanarium.png)
