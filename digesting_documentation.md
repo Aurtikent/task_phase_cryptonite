@@ -18,4 +18,15 @@
 4) pwn.college{EU-o3a_-O5D578zC4IcoBwV6Zvh.dVTM4QDL2gTN0czW}
 	- searched the documentation using " / "
 	
-![screenshot of the ardument searching the documentation](images/man_linuxlumanarium.png)
+![screenshot of the argument searching the documentation](images/man_linuxlumanarium.png)
+
+5) pwn.college{UkcDaJHq68Smqz6_zwQdA4BNJKm.dZTM4QDL2gTN0czW}
+
+	- This was a tricky one couldn't figure out at start how to proceed with the challenge
+	- rereading the challenge description, proceeded to read the `man man` page
+	- found the command man -k <term to search>
+	- That's it !! there it was, 
+![screenshot of the man -k page](images/man_search_page.png)
+	- Read the man page and solved the challenge. 
+
+
