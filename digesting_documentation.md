@@ -3,7 +3,7 @@
 
 1) pwn.college{I7jCsDR65Chwue2U-Mt0W8SmU95.dRjM5QDL2gTN0czW}
 	>/challenge/challenge --giveflag
-	-The challenege is on reading documentation on linux command and understand how to properly use them, 
+	- The challenege is on reading documentation on linux command and understand how to properly use them, 
 
 2) pwn.college{IdY_gbLELzdZYHHBpFXzjmUbPUH.dVjM5QDL2gTN0czW}
 	>/challenge/challenge --printfile /flag
