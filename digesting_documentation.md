@@ -18,6 +18,7 @@
 4) pwn.college{EU-o3a_-O5D578zC4IcoBwV6Zvh.dVTM4QDL2gTN0czW}
 	- searched the documentation using " / "
 	
+
 ![screenshot of the argument searching the documentation](images/man_linuxlumanarium.png)
 
 5) pwn.college{UkcDaJHq68Smqz6_zwQdA4BNJKm.dZTM4QDL2gTN0czW}
@@ -30,3 +31,10 @@
 	- Read the man page and solved the challenge. 
 
 
+6) pwn.college{oAdi1Kt2OKCuBkgrzpjkAeha_72.ddjM4QDL2gTN0czW}
+	- Straight forward ran `/challenge/challenge -h`
+	- the help page gave all necessary information to solve the challenge. 
+
+7) pwn.college{E_5FEIR-oiqF0fjyTFSCMKwiETk.dRTM5QDL2gTN0czW}
+	- Challenge Description taught about the shell builtins, 
+	- Looked for 
