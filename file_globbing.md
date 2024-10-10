@@ -21,14 +21,16 @@
 
 5) pwn.college{4syMFiU10XZ6fpUkHsndqThj1iA.dVjM4QDL2gTN0czW}
 
-    - This was a tricky one, following description we `cd /challenge/files` and see the files. 
-[Photo of the files.](images/globbing_file_names_5.png)
+    - This was a tricky one, following description we `cd /challenge/files` and see the files.
+
+[Photo of the files](images/globbing_file_names_5.png)
+
     - Interesting thing we notice is that there is only 1 filename with starting with each letter. 
     - so `[cep]*` would expand to the file names we need 
     - running  `/challenge/run [cep]*` gives us the flag. 
 
 6) pwn.college{Yg-dr1jMD7yN14Mgkqm-PVKiYB4.dZjM4QDL2gTN0czW}
-    - `[!<patter,letters>]` the "!" or "^"acts as an invert and disincludes the chars in the ""[]"
+    - `[!<patter,letters>]` the "!" or "^"acts as an invert and disincludes the chars in the "[]"
     - Similar to Challenge 5, we notice only 1 filename per letter in the `/challenge/files` directory
     - `/challenge/run [!pwn]*` gives us the flag. 
 
