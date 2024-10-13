@@ -44,7 +44,15 @@
     - `cat out.txt` tells us that SECRET_ARG should be "gNcP6o6-" with a --secret argument to 'pwn'.
     -  `/challenge/pwn --secret gNcP6o6- | /challenge/college` prints the flag to the terminal. 
 
-10) 
+10) pwn.college{c9YS1ePc3YPVMQboWmY8uVTk0gR.dBDO0UDL2gTN0czW}
+    - `/challenge/hack | tee >(/challenge/the) >(/challenge/planet)` will print the flag.
+    - we need to 'process substitute' both the commands and pass the outputs of `/challenge/hack` to both 'the','planet' programs at the same time. 
+
+11) pwn.college{wUXyMMlSv4R5Jdgc1kOWz0UBUV3.dFDNwYDL2gTN0czW}
+    - complex appearing problem which in practice is indeed easy.
+    - `/challenge/hack 2> >(/challenge/the) 1> >(/challenge/planet)` will give you the flag,
+    - redirecting the stdout to different program, and redirecting the stdin to different program, nothing too complicated. 
+
 
  
     
