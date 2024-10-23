@@ -21,4 +21,16 @@
 5) pwn.college{4k2-3la4zPirkxFrcMiKl67oYGQ.dJTM2QDL2gTN0czW}
     - `chmod +x /challenge/run` to give it execute perms
     - `/challenge/run` will give the flag. 
-6) 
+6) pwn.college{QhROrWN7Ld9mZtbv_rYIKkRFeoU.dBTM2QDL2gTN0czW}
+    - go through various rounds of chmodding a file setting up permissions for it. 
+    - `chmod +r /flag` change the perm of the flag. 
+    - `cat /flag` to give us the flag. 
+7) pwn.college{43TJ08P0uw3UdszK7R0YRJoHFWh.dNTM5QDL2gTN0czW}
+    - Go through Various rounds advance chmodding for a file
+    - `chmod +r /flag` change the perm of the flag. 
+    - `cat /flag` to give us the flag. 
+8) pwn.college{wETgeYYZHX4nRT_al50W5DnOmBr.dNTM2QDL2gTN0czW}
+    - Set SUID bit for /challenge/getroot with:
+    - `chmod +s /challenge/getroot`
+    - run program which spawns a root shell, `cat /flag`
+
